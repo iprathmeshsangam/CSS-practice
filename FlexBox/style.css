@@ -1,0 +1,78 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .flex-a{
+    width: 400px;
+    height: 90vh;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: #fff;
+    color: #2f1c6a;
+    border-radius: 5px;
+  }
+  hr{
+    width: 300px;
+    margin: auto;
+  }
+  .head{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 40vh;
+  }
+  #dash{
+    color: #2f1c6a;
+    font-size: small;
+    text-decoration: line-through;
+  }
+  #save{
+    background-color: #ebe4ff;;
+    padding: 8px 10px;
+    color: #673de6;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  .current_price h2{
+    font-size: 48px;
+  }
+  .free p{
+    color: #673de6;
+    font-weight: bold;
+  }
+  .Add_to_cart button{
+    background-color: #673de6;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    min-height: 48px;
+    width: 80%;
+    cursor: pointer;
+  }
+  .feature{
+    height: auto;
+  }
+  .Add_to_cart span{
+    font-size: small;
+  }
+  .feature h3{
+    text-align: center;
+  }
+  .top-feature li{
+    list-style: none;
+  }
+  .top-feature{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: stretch;
+    line-height: 34px;
+  }
